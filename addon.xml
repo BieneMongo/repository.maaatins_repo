@@ -15,7 +15,7 @@
 		<website>https://github.com/MartinOehme</website>
 		<email>maaaaaatin@gmx.de</email>
 		<assets>
-			<icon>resources/test.png</icon>
+			<icon>test.png</icon>
 		</assets>
 		<news></news>
 	</extension>
