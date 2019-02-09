@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.maaatins_repo" name="Maaatins Testrepo" version="0.0.2" provider-name="Maaatin">
+<addon id="repository.maaatins_repo" name="Maaatins Testrepo" version="0.0.3" provider-name="Maaatin">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
-	<extension point="xbmc.python.script" library="addon.py">
-		<provides></provides>
-	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en">Maaatins Testrepo</summary>
@@ -23,8 +20,8 @@
 		<news></news>
 	</extension>
 	<extension point="xbmc.addon.repository">
-		<info>addons.xml</info>
-		<checksum>addons.xml.md5</checksum>
-		<datadir>https://github.com/MartinOehme/</datadir>
+		<info>https://raw.githubusercontent.com/BieneMongo/repository.maaatins_repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/BieneMongo/repository.maaatins_repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/BieneMongo/repository.maaatins_repo/master/</datadir>
 	</extension>
 </addon>
